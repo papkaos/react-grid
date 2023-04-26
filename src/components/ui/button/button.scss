@@ -1,0 +1,15 @@
+.button {
+  height: 28px;
+  padding: 0 24px;
+  cursor: pointer;
+  outline: inherit;
+  border: none;
+
+  &--primary {
+    background-color: blue;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+  }
+}

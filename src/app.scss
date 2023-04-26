@@ -1,0 +1,28 @@
+.page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 120px;
+
+  &__content {
+    width: 800px;
+
+    &--columns {
+      display: flex;
+    }
+  }
+}
+
+.actions {
+  margin-bottom: 25px;
+
+  &__form {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.grid-wrapper {
+  display: flex;
+  justify-content: center;
+}
